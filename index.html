@@ -2,21 +2,37 @@
 <html>
   <head>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+        rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="style.css"
+        media="screen"
+        charset="utf-8">
   </head>
   <body class="body">
     <header class="main-header">
       <h1 class="visually-hidden">Todo App</h1>
-      <img class="main-header__img" src="./eisenhower-matrix.jpg" alt="Image Eisenhower Matrix">
-      <a class="main-header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img
+          class="main-header__img"
+          src="./eisenhower-matrix.jpg"
+          alt="Image Eisenhower Matrix">
+      <a
+          class="main-header__link"
+          href="https://goal-life.com/page/method/matrix-eisenhower">
+          Want more details?
+      </a>
     </header>
     <main class="main-content">
       <section class="add-task">
         <h2 class="visually-hidden">Add Item</h2>
         <label class="add-task__label" for="new-task">Add Item</label>
         <div class="task-wrapper add-task__wrapper">
-          <input class="task task-text add-task__input" id="new-task" type="text">
+          <input
+              class="task task-text add-task__input"
+              id="new-task"
+              type="text">
           <button class="add-btn add-task__btn">Add</button>
         </div>
       </section>
@@ -29,16 +45,25 @@
               <input class="task task-text tasks-list__input" type="text">
               <button class="toggle-btn toggle-btn--edit">Edit</button>
               <button class="delete-btn">
-                <img class="delete-btn__img" src="./remove.svg" alt="cross icon">
+                <img
+                    class="delete-btn__img"
+                    src="./remove.svg"
+                    alt="cross icon">
               </button>
             </li>
             <li class="tasks-list__item tasks-list__item--edit-mode">
               <input class="task-checkbox tasks-list__input" type="checkbox">
               <label class="task task-label tasks-list__label">Go Shopping</label>
-              <input class="task task-text tasks-list__input" type="text" value="Go Shopping">
+              <input
+                  class="task task-text tasks-list__input"
+                  type="text"
+                  value="Go Shopping">
               <button class="toggle-btn toggle-btn--save">Save</button>
               <button class="delete-btn">
-                <img class="delete-btn__img" src="./remove.svg" alt="cross icon">
+                <img
+                    class="delete-btn__img"
+                    src="./remove.svg"
+                    alt="cross icon">
               </button>
             </li>
         </ul>
@@ -47,12 +72,18 @@
         <h2 class="title completed__title">Completed</h2>
         <ul class="tasks-list list-reset" id="completed-tasks">
             <li class="tasks-list__item">
-              <input class="task-checkbox tasks-list__input" type="checkbox" checked>
+              <input
+                  class="task-checkbox tasks-list__input"
+                  type="checkbox"
+                  checked>
               <label class="task task-label tasks-list__label">See the Doctor</label>
               <input class="task task-text tasks-list__input" type="text">
               <button class="toggle-btn toggle-btn--edit">Edit</button>
               <button class="delete-btn">
-                <img class="delete-btn__img" src="./remove.svg" alt="cross icon">
+                <img
+                    class="delete-btn__img"
+                    src="./remove.svg"
+                    alt="cross icon">
               </button>
             </li>
         </ul>
